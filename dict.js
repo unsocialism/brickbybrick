@@ -1,5 +1,5 @@
 /* =========================================================================
-   Visual Snow Reader — word lookup.
+   Brick by Brick Reader — word lookup.
 
    Two layers, in this order:
      1. an offline dictionary kept in IndexedDB (downloaded once, then the

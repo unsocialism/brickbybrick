@@ -1,6 +1,6 @@
-/* Visual Snow Reader service worker — makes the app work with no network at all,
+/* Brick by Brick Reader service worker — makes the app work with no network at all,
    and receives .epub files shared from other Android apps. */
-const VERSION = 'vsr-v4';
+const VERSION = 'bbb-v1';
 const SHELL = [
   './',
   './index.html',
@@ -100,7 +100,7 @@ self.addEventListener('fetch', e => {
         return res;
       } catch (err) {
         return new Response(
-          '<h1>Offline</h1><p>Visual Snow Reader has not finished installing yet. Open it once with a connection.</p>',
+          '<h1>Offline</h1><p>Brick by Brick Reader has not finished installing yet. Open it once with a connection.</p>',
           { headers: { 'Content-Type': 'text/html' } });
       }
     })());

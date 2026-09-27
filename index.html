@@ -11,7 +11,7 @@
 <link rel="manifest" href="./manifest.webmanifest">
 <link rel="icon" href="./icon-192.png">
 <link rel="apple-touch-icon" href="./icon-192.png">
-<title>Visual Snow Reader</title>
+<title>Brick by Brick Reader</title>
 <style>
   :root{
     --bg:#f3e9d8; --fg:#4a4036; --muted:#8b8073; --panel:#efe4d1;
@@ -220,7 +220,7 @@
 
 <!-- ============ shelf ============ -->
 <main id="shelf" class="ui">
-  <div id="shelfHead"><h1>Visual Snow Reader</h1><span id="count"></span></div>
+  <div id="shelfHead"><h1>Brick by Brick Reader</h1><span id="count"></span></div>
   <div id="empty" class="hide">
     <b>Your shelf is empty</b>
     Add an EPUB or a PDF and it stays here — with your place saved — so you never have to go looking for the file again.
@@ -336,7 +336,7 @@
 <script>
 "use strict";
 /* =========================================================================
-   Visual Snow Reader — an offline EPUB reader that reflows text into short blocks.
+   Brick by Brick Reader — an offline EPUB reader that reflows text into short blocks.
    No libraries: ZIP is parsed by hand, deflate via DecompressionStream.
    ========================================================================= */
 const $ = s => document.querySelector(s);
@@ -926,7 +926,7 @@ async function openBook(id){
     } else book=await loadEpub(await rec.blob.arrayBuffer());
     bookId=id;
     if(meta){ meta.opened=Date.now(); await put('books',meta); }
-    document.title=book.title+' — Visual Snow Reader';
+    document.title=book.title+' — Brick by Brick Reader';
     $('#btitle').textContent=book.author?book.title+' · '+book.author:book.title;
     buildToc();
     showReader();
@@ -950,7 +950,7 @@ function showShelf(){
   hideDefBtn();
   $('#reader').classList.add('hide'); $('#bar').classList.add('hide'); $('#pbar').classList.add('hide');
   $('#shelf').classList.remove('hide'); $('#addWrap').classList.remove('hide');
-  document.title='Visual Snow Reader';
+  document.title='Brick by Brick Reader';
   freeBook(); renderShelf();
   window.scrollTo(0,0);
 }

@@ -1,4 +1,4 @@
-# Visual Snow Reader — installable EPUB and PDF reader
+# Brick by Brick Reader — installable EPUB and PDF reader
 
 An EPUB and PDF reader that breaks walls of text into short blocks, with low-contrast tinted
 themes. Everything runs in the browser: no server, no accounts, no tracking, and your
@@ -20,7 +20,7 @@ Once installed it works with the phone in aeroplane mode.
 | `icon-*.png` | App icons, including a maskable one for Android's adaptive icon shapes. |
 
 All paths are relative, so it works at a domain root **or** in a subfolder
-(`https://you.github.io/reflow/`) with no changes.
+(`https://you.github.io/your-repo/`) with no changes.
 
 ## Putting it on your phone
 
@@ -29,13 +29,13 @@ somewhere on the web first. Any static host works. Two easy free ones:
 
 ### GitHub Pages (no command line needed)
 
-1. Create a free account at github.com, then **New repository** → name it `reflow` →
-   **Public** → Create.
+1. Create a free account at github.com, then **New repository** → give it a name (all
+   lowercase is easiest; the address is case-sensitive) → **Public** → Create.
 2. On the empty repo page, click **uploading an existing file**, then drag in all the
    files from this folder (the files themselves, not the folder). Click **Commit changes**.
 3. Go to **Settings → Pages**. Under *Branch* pick `main` and `/ (root)`. Save.
 4. Wait about a minute, then reload that page — it shows your URL, something like
-   `https://yourname.github.io/reflow/`.
+   `https://yourname.github.io/your-repo/`.
 
 ### Cloudflare Pages
 
@@ -47,7 +47,7 @@ somewhere on the web first. Any static host works. Two easy free ones:
 1. Open that URL in **Chrome**.
 2. Menu (⋮) → **Add to Home screen** — or **Install app**, if Chrome offers it.
 3. Open it from the home screen. It runs fullscreen, with no address bar.
-4. Tap **Add a book** and pick an `.epub` or `.pdf`. You can also share one to Visual Snow Reader
+4. Tap **Add a book** and pick an `.epub` or `.pdf`. You can also share one to Brick by Brick Reader
    from Files, Drive or your browser's downloads — the app appears in the share sheet.
 
 After the first visit the app is cached, so it opens and reads with no connection.
@@ -155,7 +155,7 @@ is mostly diagrams or tables, a normal PDF viewer is the better tool for that on
 ## Things worth knowing
 
 - **DRM'd books won't open.** Files from Kindle (`.azw`, `.kfx`) or with Adobe DRM can
-  only be read by the vendor's own app. Visual Snow Reader reads ordinary `.epub` and `.pdf` files.
+  only be read by the vendor's own app. Brick by Brick Reader reads ordinary `.epub` and `.pdf` files.
 - **Your library lives in this browser's storage on this phone.** Uninstalling the app
   or clearing site data for the domain deletes it. The app asks Android for persistent
   storage so it isn't cleared automatically, but nothing syncs between devices.

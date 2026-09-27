@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Build the offline dictionary file for Visual Snow Reader.
+Build the offline dictionary file for Brick by Brick Reader.
 
 Input : the WordNet 3.0 database files (data.noun, index.noun, noun.exc, ...),
         either as the downloaded tarball or as an unpacked folder.

@@ -1,5 +1,5 @@
 /* =========================================================================
-   pdf-extract.js — dependency-free PDF → reflowable text for Visual Snow Reader.
+   pdf-extract.js — dependency-free PDF → reflowable text for Brick by Brick Reader.
 
    Reads the text layer of a PDF and rebuilds paragraphs from where the words sit
    on the page: line spacing, first-line indents, ragged last lines, running

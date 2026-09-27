@@ -1,6 +1,6 @@
 {
-  "name": "Visual Snow Reader",
-  "short_name": "Visual Snow",
+  "name": "Brick by Brick Reader",
+  "short_name": "Brick by Brick",
   "description": "An EPUB and PDF reader that breaks walls of text into short, breathable blocks, with low-contrast tinted themes.",
   "id": "./",
   "start_url": "./",
