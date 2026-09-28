@@ -2,6 +2,10 @@
 
 **[Open the reader →](https://unsocialism.github.io/brickbybrick/)**
 
+<a href="https://unsocialism.github.io/brickbybrick/"><img src="qr.png" alt="QR code linking to unsocialism.github.io/brickbybrick" width="170" align="right"></a>
+
+Or point your phone's camera at the code to open it there.
+
 A free e-reader for EPUB and PDF books that breaks walls of text into short blocks, so a page
 looks like this…
 
